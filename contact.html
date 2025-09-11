@@ -16,8 +16,17 @@
   </nav>
 
 
-  <img src="mapa-1.png" alt="Imagen de ejemplo de localización de mi ubicacion en la ciudad de La Paz,
-    Baja California Sur, México" title="Mi lucalización" width="300" />
+  <!-- <img src="mapa-1.png" alt="Imagen de ejemplo de localización de mi ubicacion en la ciudad de La Paz,
+    Baja California Sur, México" title="Mi lucalización" width="300" /> -->
+
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d691.8995807997649!2d-110.32123833577786!3d24.124831559445084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86afd32f395b9f6f%3A0x224c4345f584aa4c!2sAntojitos%20El%20Paraiso!5e0!3m2!1ses-419!2smx!4v1757386178930!5m2!1ses-419!2smx"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <br>
+
+
 
   <div>
 
@@ -25,8 +34,95 @@
 
     <p><a href="tel:+526121234567"> Telefono </a></p>
     <p><a href="mailto:jjimenez_23@alu.uabcs.mx"> Correo</a></p>
-
   </div>
+
+  <article>
+
+    <h4>Soy una entrada</h4>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+  </article>
+
+  <form>
+
+    <label for="">
+      Correo electrónico
+    </label>
+    <input type="email" name="" value="jjimenez_23@alu.uabcs.mx" readonly>
+
+    <br>
+
+    <label for="name">
+      Ingrese su nombre:
+
+    </label>
+    <input type="text" name="name" id="name" autofocus placeholder="Jesus" 
+    size="30" minlength="5" maxlength="12" required pattern="[A-Za-z]{3}" title="solo 3 letras">
+    <br>
+
+    <label for="lastname">
+      Ingrese su apellido:
+    </label>
+    <input type="text" name="lastname" id="lastname" placeholder="Jimenez Carrillo" required disabled>
+    <br>
+
+    <label for="">
+      Telefono:
+    </label>
+    <input type="number" min="5" max="20" step="1" name="">
+    <br>
+
+    <label>
+      Género:
+    </label>
+    <label for="Mujer">
+      Mujer
+    </label>
+    <input type="radio" name="gender" id="Mujer" value="Mujer">
+    <label for="Hombre">
+      Hombre
+    </label>
+    <input type="radio" name="gender" id="Hombre" value="Hombre">
+    <label for="n_r">
+      Prefiero no decirlo
+    </label>
+    <input type="radio" name="gender" id="n_r" value="n_r">
+
+    <br>
+
+    <label>
+      Preferencias:
+    </label>
+    <label>
+      Pizza
+    </label>
+    <input type="checkbox" name="Preferencias" value="Pizza">
+    <label>
+      HotDog
+    </label>
+    <input type="checkbox" name="Preferencias" value="HotDog">
+    <label>
+      Tacos
+    </label>
+    <input type="checkbox" name="Preferencias" value="Tacos">
+    <br>
+
+    <input type="submit" name="" value="Guardar">
+    <br>
+
+    <input type="button" name="" value="Hola">
+
+  </form>
+
+
+
 
 </body>
 
