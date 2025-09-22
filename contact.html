@@ -50,7 +50,7 @@
 
   </article>
 
-  <form>
+  <form action="index.html" target="_self" method="post" autocomplete="off">
 
     <label for="">
       Correo electrónico
@@ -58,13 +58,31 @@
     <input type="email" name="" value="jjimenez_23@alu.uabcs.mx" readonly>
 
     <br>
+    <label for="">
+      Contraseña:
+    </label>
+    <input type="password" name="">
+    <br>
+
+    <label for="">
+      Seleccione una opción:
+    </label>
+    <select name="" id="">
+      <option value="">
+        opción 1
+      </option>
+      <option value="">
+        opción 2
+      </option>
+    </select>
+    <br>
 
     <label for="name">
       Ingrese su nombre:
 
     </label>
     <input type="text" name="name" id="name" autofocus placeholder="Jesus" 
-    size="30" minlength="5" maxlength="12" required pattern="[A-Za-z]{3}" title="solo 3 letras">
+    size="30" minlength="3" maxlength="12" required pattern="[A-Za-z]{3}" title="solo 3 letras">
     <br>
 
     <label for="lastname">
@@ -113,6 +131,11 @@
     </label>
     <input type="checkbox" name="Preferencias" value="Tacos">
     <br>
+
+    <label for="">
+      Ingrese su mensaje:
+    </label>
+    <textarea name="" id=""></textarea>
 
     <input type="submit" name="" value="Guardar">
     <br>

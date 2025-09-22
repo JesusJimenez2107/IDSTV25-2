@@ -1,0 +1,48 @@
+h1 {
+    background-color: green;
+}
+
+p strong {
+    background-color: aquamarine;
+}
+
+p {
+    background-color: darkolivegreen;
+}
+
+.fondo_color {
+    color: white;
+    background-color: darkslateblue;
+}
+
+.fondo_color:hover {
+    color: black;
+    background-color: chocolate;
+}
+
+p:hover {
+    background-color: lightskyblue;
+}
+
+a:hover {
+    background-color: chartreuse;
+}
+
+#ir_footer {
+    color: white;
+    background-color: blueviolet;
+}
+
+#ir_footer:hover {
+    color: black;
+    background-color: chartreuse
+}
+
+li:first-child {
+    background-color: blue;
+}
+
+li:last-child {
+    color: white;
+    background-color: black;
+}
