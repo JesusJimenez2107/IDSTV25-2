@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "MiFuente";
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+    font-display: swap;
+}
+
+body {
+    font-family: "MiFuente", sans-serif;
+}
+
 h1 {
     background-color: green;
 }
@@ -45,4 +55,20 @@ li:first-child {
 li:last-child {
     color: white;
     background-color: black;
+}
+
+.h2_sombra {
+    text-shadow: 3px 3px 5px #7209b7;
+}
+
+.text_centrado {
+    text-align: center;
+}
+
+.text_subrayado {
+    text-decoration: underline;
+}
+
+.text_mayusculas {
+    text-transform: uppercase;
 }
