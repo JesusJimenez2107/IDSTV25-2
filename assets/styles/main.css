@@ -23,6 +23,20 @@ p {
 .fondo_color {
     color: white;
     background-color: darkslateblue;
+    
+}
+
+.padding_p {
+    padding: 30px;
+}
+
+.border_p {
+    border: 20px;
+    border-style: double;
+    border-radius: 20px;
+    border-color: white;
+
+
 }
 
 .fondo_color:hover {
@@ -63,6 +77,8 @@ li:last-child {
 
 .text_centrado {
     text-align: center;
+    margin: 20px;
+    padding: 30px;
 }
 
 .text_subrayado {
